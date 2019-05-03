@@ -1,0 +1,1 @@
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest.UWP\SoftlandApiTest.UWP.csproj;x86

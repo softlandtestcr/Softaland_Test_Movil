@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SoftlandApiTest"
+             x:Class="SoftlandApiTest.MainPage" Appearing="ContentPage_Appearing" BackgroundColor="#222f3e">
+
+    <StackLayout>
+
+
+        <Button
+    WidthRequest ="50"
+    HeightRequest ="40"
+            Margin="2"
+    CornerRadius ="40"
+    VerticalOptions ="Center"
+    HorizontalOptions="End"
+    BackgroundColor="#341f97"
+            Text="+"
+            TextColor="PapayaWhip"
+            Clicked="Button_Clicked"/>
+        
+        <Label x:Name="estado" 
+               Font="36" 
+               HorizontalTextAlignment="Center" 
+               VerticalTextAlignment="Center" 
+               TextColor="#10ac84" 
+               IsVisible="False" Text="{Binding estado}"></Label>
+
+
+
+        
+
+        <ListView x:Name="ListaView_ListaTareas"  
+                  ItemTapped="ListaView_ListaTareas_ItemTapped"
+                  HasUnevenRows="True" Header=""  ItemSelected="ListaView_ListaTareas_ItemSelected">
+
+            <ListView.HeaderTemplate>
+
+                <DataTemplate>
+                    <Grid>
+                        <Label Text="Lista de Tareas" HorizontalTextAlignment="Center" Font="28" TextColor="White">
+                            
+                        </Label>
+                    </Grid>
+                    
+                </DataTemplate>
+            </ListView.HeaderTemplate>
+
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <TextCell  Text="{Binding id}"  Detail="{Binding name}" DetailColor="White" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+    </StackLayout>
+
+
+
+</ContentPage>

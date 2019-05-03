@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoftlandApiTest.CrearTarea" BackgroundColor="#222f3e" Appearing="ContentPage_Appearing">
+   
+        <StackLayout>
+            <Label x:Name="labeltext" Text="Crear tarea" HorizontalOptions="Start" Font="36" TextColor="White"></Label>
+            <Entry x:Name="nametext" Placeholder="Escriba aqui el nombre" PlaceholderColor="White" TextColor="Accent"></Entry>
+            <Editor x:Name="notestext" Placeholder="Escriba aqui las notas" PlaceholderColor="white" TextColor="Accent"></Editor>
+            <Picker x:Name="pickertext" TextColor="Accent"></Picker>
+        <Button x:Name="butontext" Text="Crear Tarea" BackgroundColor="#10ac84" TextColor="White" HorizontalOptions="End" Clicked="Butontext_Clicked"></Button>
+        </StackLayout>
+  
+</ContentPage>

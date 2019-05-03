@@ -1,0 +1,14 @@
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\bin\Release\netstandard2.0\SoftlandApiTest.deps.json
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\bin\Release\netstandard2.0\SoftlandApiTest.dll
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\bin\Release\netstandard2.0\SoftlandApiTest.pdb
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\SoftlandApiTest.csprojAssemblyReference.cache
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\CrearTarea.xaml.g.cs
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\ModificarTarea.xaml.g.cs
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\SoftlandApiTest.csproj.CoreCompileInputs.cache
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\SoftlandApiTest.AssemblyInfoInputs.cache
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\SoftlandApiTest.AssemblyInfo.cs
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\SoftlandApiTest.dll
+C:\Users\ITCO\source\repos\SoftlandApiTest\SoftlandApiTest\SoftlandApiTest\obj\Release\netstandard2.0\SoftlandApiTest.pdb

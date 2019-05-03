@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SoftlandApiTest.ModificarTarea" Appearing="ContentPage_Appearing" BackgroundColor="#222f3e">
+ 
+        <StackLayout>
+            <Label x:Name="labeltext" Text="" HorizontalOptions="Start" Font="36"></Label>
+            <Entry x:Name="idtext" TextColor="Accent"></Entry>
+            <Entry x:Name="nametext" Placeholder="Escriba aquí el nombre de la tarea" PlaceholderColor="White" TextColor="Accent"></Entry>
+            <Editor x:Name="notestext" Placeholder="Escriba aquí las notas de la tarea" PlaceholderColor="White" TextColor="Accent"></Editor>
+            <Picker x:Name="pickertext" TextColor="Accent"></Picker>
+        <Button x:Name="buttontextmodificar" BackgroundColor="#10ac84" TextColor="White"  Text="Modificar Tarea" HorizontalOptions="EndAndExpand" Clicked="Buttontext_Clicked"></Button>
+        <Button x:Name="buttontexteliminar" BackgroundColor="#10ac84" TextColor="White" Text="Eliminar Tarea" HorizontalOptions="StartAndExpand" Clicked="Buttontexteliminar_Clicked"></Button>
+        </StackLayout>
+   
+</ContentPage>
